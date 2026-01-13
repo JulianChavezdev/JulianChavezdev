@@ -48,9 +48,9 @@ Soy un desarrollador Frontend de **Sevilla** 💃 con unos 2 años de experienci
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=JulianChavezdev&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" width="100%" />
 </p>
 
-### 🐍 GitHub Snake
+### 🐍 Mi Snake Contribution
 <p align="center">
-  <img src="https://github.com/JulianChavezdev/JulianChavezdev/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/JulianChavezdev/JulianChavezdev/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
