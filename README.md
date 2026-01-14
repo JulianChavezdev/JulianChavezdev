@@ -36,12 +36,17 @@ Soy un desarrollador Frontend de **Sevilla** 💃 con unos 2 años de experienci
 </p>
 
 ---
-### 📊 Estadísticas de Código
+### 💻 Lenguajes que Domino y Estoy Perfeccionando
 
-<p align="center">
-  <img src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=JulianChavezdev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Lenguajes más usados" />
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-80%25-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-75%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-90%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-85%25-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-40%25-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
+> **Nota:** Estas métricas representan mi enfoque actual en el Grado Superior y proyectos personales.
 
 ### 🐍 Mi Snake Contribution
 <p align="center">
