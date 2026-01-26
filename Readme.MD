@@ -1,73 +1,66 @@
-# 🎮 Valorant Core Engine | Simulation Backend
+# ¡Hola! Soy Julián Chávez 👋 
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Status](https://img.shields.io/badge/Versión-1.0_Estable-green?style=for-the-badge)
-![UD3](https://img.shields.io/badge/Evaluación-UD3_Estructuras_Control-blue?style=for-the-badge)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0891b2&height=200&section=header&text=Software%20Developer&fontSize=70&animation=fadeIn&fontAlignY=38" width="100%" />
+</p>
 
-Este proyecto es un simulador táctico de backend basado en el universo de **Valorant**. La aplicación gestiona de forma integral la lógica de combate, la jerarquía de personajes y el cálculo de daño balístico dinámico, cumpliendo estrictamente con los requisitos de programación orientada a objetos y gestión de colecciones.
+## 🚀 Sobre mí
 
----
+Soy un desarrollador Frontend de **Sevilla** 💃 con unos 2 años de experiencia trasteando con código. Actualmente estoy cursando el **Grado Superior de Desarrollo de Software (FP)**
 
-## 🏗️ Arquitectura del Sistema
+- 🧠 **Aprendiendo actualmente:** Java,JavaScript,Tailwind CSS. Próximamente TypeScript, React y Next.js
+- 🖥️ **Portfolio:** [¡Muy pronto disponible!](http://COMING.COM)
+- ✉️ **Contacto:** [julicgavez@hotmail.com](mailto:julicgavez@hotmail.com)
 
-El proyecto está organizado en dos paquetes estratégicos para garantizar el desacoplamiento:
-
-### 1. `com.valorant.core` (Entidades de Juego)
-Contiene la definición de los objetos del dominio. Se utiliza **Herencia** para especializar comportamientos.
-
-* **Jerarquía de Agentes:**
-    * `Agente` (Padre): Base con lógica de comparación `equals/hashCode`.
-    * `Duelista`, `Centinela`, `Controlador` (Hijas): Implementan atributos únicos como multiplicadores de velocidad o gestión de trampas.
-* **Jerarquía de Armas:**
-    * `Arma` (Padre): Atributos de capacidad y daño base.
-    * `Fusil`, `Francotirador`, `Subfusil` (Hijas): Implementan el **Damage Falloff** (caída de daño por distancia) y modos de disparo específicos.
-
-### 2. `com.valorant.engine` (Lógica y Gestión)
-Donde reside la inteligencia del simulador y el manejo de datos complejos.
-
-* **`Arsenal`:** Sistema CRUD gestionado por un `HashMap<String, Arma>`.
-* **`Squad`:** Control de escuadrones mediante `ArrayList<Agente>` y logs de historial.
-* **`CombateLog`:** Motor de cálculo de impactos con lógica de `HashMap<Agente, Integer>`.
-* **`Partida`:** Orquestador principal que utiliza `HashSet<String>` para el control de jugadores vivos en tiempo real.
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0891B2&width=435&lines=Software+Development+Enthusiast;FP+DAW+Student;JavaScript+and+Java+Explorer;Always+Learning+New+Tech" alt="Typing SVG" />
+</p>
 
 ---
 
-## 🛠️ Especificaciones Técnicas (UD3)
+### 🛠️ Tecnologías y Herramientas
 
-Para garantizar la máxima nota, el proyecto implementa las siguientes estructuras de control y datos:
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <br />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
 
-### 📊 Gestión de Colecciones
-| Estructura | Implementación | Propósito |
-| :--- | :--- | :--- |
-| **HashMap** | `catalogoArmas` | Acceso $O(1)$ a las armas por nombre. |
-| **HashMap** | `danoRecibido` | Registro acumulativo de daño por Agente. |
-| **HashSet** | `jugadoresVivos` | Gestión eficiente de estados de eliminación. |
-| **ArrayList** | `miembros`, `historial` | Gestión secuencial de equipo y eventos. |
+---
+### 💻 Lenguajes que Domino y Estoy Perfeccionando
 
-### ⚙️ Lógica de Control
-* **Cálculo Dinámico:** El daño se procesa mediante condicionales anidados en `CombateLog`.
-    $$D_{final} = (D_{base} \cdot M_{distancia}) \cdot M_{zona}$$
-* **Bucle de Simulación:** Un ciclo `while` en `Partida` controla el flujo de las 13 rondas reglamentarias.
-* **Filtrado Eficiente:** Uso de bucles `for-each` para búsqueda de armas por umbral de daño y aplicación de daño global por explosión.
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-30%25-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-15%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-90%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-85%25-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+
+> **Nota:** Estas métricas representan mi enfoque actual en el Grado Superior y proyectos personales.
+
+### 🐍 Mi Snake Contribution
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JulianChavezdev/JulianChavezdev/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
 
 ---
 
-## 📋 Requisitos de Implementación
+### 📱 Redes Sociales
 
-Cada clase en este proyecto incluye de forma obligatoria:
-1.  **Atributos:** Mínimo 4 atributos por clase (incluyendo Tipos Primitivos, String y Enums).
-2.  **Encapsulamiento:** Getters, Setters y Constructores (Vacío y Completo).
-3.  **Métodos Object:** Sobrescritura de `toString`, `equals` y `hashCode`.
-4.  **Enums:** Uso de enumerados para `TipoAgente` y `ZonaCuerpo`.
+<p align="left">
+  <a href="https://www.twitch.tv/capitanchavez" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" /></a>
+  <a href="https://www.youtube.com/@JulianChavez810" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+  <a href="https://www.github.com/JulianChavezdev" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
----
-
-## 🚀 Ejecución
-
-La clase `Main` (en la raíz) instancia el ecosistema completo, simulando:
-1.  La creación de un **Arsenal** completo.
-2.  La formación de un **Squad** (con validación de composición táctica).
-3.  Una secuencia de combate con registro de logs y resumen final de bajas.
-
----
-> **Nota Académica:** Este proyecto ha sido diseñado para demostrar habilidades avanzadas en el manejo de herencia, polimorfismo y estructuras de datos dinámicas en Java.
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=JulianChavezdev&color=0891b2&style=flat-square&label=VISITAS+AL+PERFIL" alt="Visit Counter" />
+</p>
