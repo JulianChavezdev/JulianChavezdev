@@ -6,9 +6,9 @@
 
 ## 🚀 Sobre mí
 
-Soy un desarrollador Frontend de **Sevilla** 💃 con unos 2 años de experiencia trasteando con código. Actualmente estoy cursando el **Grado Superior de Desarrollo de Software (FP)**
+Soy un desarrollador Full Stack, vivo en  **Sevilla** 💃 con unos 2 años de experiencia . Actualmente estoy cursando el **Grado Superior de Desarrollo de Software (FP)**
 
-- 🧠 **Aprendiendo actualmente:** Java,JavaScript,Tailwind CSS. Próximamente TypeScript, React y Next.js
+- 🧠 **Aprendiendo actualmente:** Tailwind CSS, TypeScript, React , node.js.
 - 🖥️ **Portfolio:** [¡Muy pronto disponible!](http://COMING.COM)
 - ✉️ **Contacto:** [julicgavez@hotmail.com](mailto:julicgavez@hotmail.com)
 
